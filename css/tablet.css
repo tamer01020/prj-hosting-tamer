@@ -1,0 +1,132 @@
+/* start header */
+header {
+    display: flex;
+    margin: 2%;
+    width: auto;
+    justify-content: space-between;
+}
+header .fa-solid.fa-bars{
+    display: inline;
+}
+header a{
+    display: none;
+}
+header div{
+    display: none;
+}
+/* end header */
+
+/* start section1 */
+section1 {
+    margin: 4% 2%;
+    flex-direction: column;
+    align-items: center;
+}
+section1 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+section1 .left h1 {
+    font-size: 60px;
+    text-align: center;
+}
+section1 .right img {
+    width: 100%;
+}
+section2 {
+    margin: 2% 2%;
+    flex-direction: column;
+}
+section2 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section2 h1 {
+    font-size: 35px;
+    text-align: center;
+}
+section2 p {
+    width: 90%;
+}
+section3 {
+    margin: 7% 1%;
+}
+section4 h1 {
+    font-size: 38px;
+    width: 90%;
+}
+section5 {
+    margin-bottom: 6%;
+}
+section6 hr {
+    width: 80%;
+}
+section7 {
+    display: flex;
+    margin: 3% 2%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+section7 .same {
+    width: 90%;
+    height: 720px;
+    margin-bottom: 3%;
+}
+section7 .same button {
+    width: 100%;
+}
+section8 {
+    display: flex;
+    margin: 6% 2%;
+    flex-direction: column;
+}
+section9 {
+    display: flex;
+    margin: 2% 2%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+section9 .left {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
+section9 .left h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 64px;
+}
+section9 .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+section10 h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    margin: 4% 1%;
+}
+footer {
+    background: #B00000;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+footer .top {
+    flex-wrap: wrap;
+}
